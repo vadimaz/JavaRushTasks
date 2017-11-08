@@ -27,12 +27,12 @@ public class Solution {
         SomeValue{myKey=SomeKey{name='test'}}
         SomeValue{myKey=SomeKey{name='testNew'}}
         2
+
          */
     }
 
     public static class SomeKey {
         String name;
-
         @Override
         public String toString() {
             return "SomeKey{" +
